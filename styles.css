@@ -62,7 +62,7 @@ li {
 }
 
 #page-two {
-    background-image: linear-gradient(to right bottom, #f48140, #f48e45, #f49a4b, #f4a653, #f4b25c, #f4b25b, #f4b35b, #f4b35a, #f4a850, #f59c46, #f5903e, #f58338);
+    background-image: linear-gradient(to right bottom, #fea642, #fdb15a, #fcbb72, #fac589, #f8cfa0, #f8cfa0, #f8cfa0, #f8cfa0, #fac589, #fcbb72, #fdb15a, #fea642);
 }
 
 .title-text {
@@ -70,19 +70,19 @@ li {
 }
 
 #page-three {
-background-image: linear-gradient(to right bottom, #f83360, #f93d75, #f84888, #f5549b, #f060ac, #f060ab, #f15fab, #f15faa, #f65298, #f94684, #fa3b6f, #f83359);
+    background-image: linear-gradient(to right bottom, #8ec9ef, #90d3ef, #97dcee, #a2e5ec, #b1edea, #b1edea, #b1edea, #b1edea, #a2e5ec, #97dcee, #90d3ef, #8ec9ef);
 }
 
 #page-four {
-    background-image: linear-gradient(to right bottom, #10d75d, #3cdb6b, #55df79, #69e386, #7be793, #7be793, #7be793, #7be793, #69e386, #55df79, #3cdb6b, #10d75d);
+    background-image: linear-gradient(to right bottom, #f19dd9, #f2abe0, #f3b9e6, #f4c7eb, #f5d4f0, #f5d4f0, #f5d4f0, #f5d4f0, #f4c7eb, #f3b9e6, #f2abe0, #f19dd9);
 }
 
 #page-five {
-    background-image: linear-gradient(to right bottom, #5481d9, #5e8cdd, #6996e1, #74a1e5, #80abe8, #80abe8, #80abe8, #80abe8, #74a1e5, #6996e1, #5e8cdd, #5481d9);        
+    background-image: linear-gradient(to right bottom, #8eef97, #97f1a5, #a1f3b3, #acf5bf, #b7f6cb, #b7f6cb, #b7f6cb, #b7f6cb, #acf5bf, #a1f3b3, #97f1a5, #8eef97);
 }
 
 #page-six {
-    background-image: linear-gradient(to right bottom, #9e6fe8, #a87ce8, #b289e9, #bb96e9, #c4a3e9, #c4a3e9, #c4a3e9, #c4a3e9, #bb96e9, #b289e9, #a87ce8, #9e6fe8);           
+    background-image: linear-gradient(to right bottom, #c4aafd, #ceb3fc, #d6bcfb, #dec5fa, #e5cff9, #e5cff9, #e5cff9, #e5cff9, #dec5fa, #d6bcfb, #ceb3fc, #c4aafd);
 }
 
 #earth {
