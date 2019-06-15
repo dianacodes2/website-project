@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>My Website</title>
+<script src="https://kit.fontawesome.com/1ec6242da6.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light&display=swap" rel="stylesheet">
 <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
@@ -10,21 +11,23 @@
 <body>
     <div id="container">
         <ul>
-            <li id="page-one">
+            <li class="page" id="page-one">
                 <div id="page-one-title"> 
                     <h1 class="page-one-title-text">ACT N</h1>
                     <img id="earth" src="assets/EARTH ICON.png" />
                     <h1 class="page-one-title-text">W</h1>
                 </div>
                 <p class="subheader">There is no planet B</p>
-                <a href="#page-two">this will be an arrow</a>
+                <a class="chevron" href="#page-two"><i class="fas fa-chevron-down"></i>
+
+                </a>
             </li>
         </ul>
         <ul>
-            <li id="page-two"></li>
+            <li class="page" id="page-two"></li>
         </ul>
         <ul>
-            <li id="page-three"></li>
+            <li class="page" id="page-three"></li>
         </ul>
     </div>
 </body>

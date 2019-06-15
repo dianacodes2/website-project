@@ -43,10 +43,12 @@ li {
     height: 100vh;
 }
 
-#page-one {
-    background-image: linear-gradient(to right bottom, #2c4b38, #385e4d, #457264, #52867b, #619a94, #5b9496, #578e97, #578796, #466578, #374558, #262837, #130b18);
-     text-align: center;
+.page {
+    position: relative;
 }
+
+#page-one {
+    background-image: linear-gradient(to right bottom, #84cca0, #72c5a2, #61bfa4, #4fb7a5, #3db0a7, #3cb2aa, #3cb4ad, #3bb6b0, #4dc2b4, #5fcfb8, #72dbbb, #85e7be);}
 
 .page-one-title-text {
     font-size: 150px;
@@ -79,4 +81,12 @@ li {
     font-family: 'Shadows Into Light', cursive;
     margin-left:450px;
     font-size: 28px;
+}
+
+.chevron {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
 }
