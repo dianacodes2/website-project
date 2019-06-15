@@ -62,12 +62,27 @@ li {
 }
 
 #page-two {
-    background-image: linear-gradient(to right bottom, #b83f8f, #b853a2, #b766b3, #b577c2, #b487d0, #a881c8, #9d7bc1, #9275b9, #7a599e, #623e83, #4b2468, #35074f);
-
+    background-image: linear-gradient(to right bottom, #f48140, #f48e45, #f49a4b, #f4a653, #f4b25c, #f4b25b, #f4b35b, #f4b35a, #f4a850, #f59c46, #f5903e, #f58338);
 }
-#page-three {
-    background-image: linear-gradient(to right bottom, #3f69b8, #5177c0, #6284c7, #7392cf, #84a0d6, #829dd9, #809adc, #8096de, #757fda, #7265d2, #7647c6, #7d1ab4);
 
+.title-text {
+    font-size: 50px;
+}
+
+#page-three {
+background-image: linear-gradient(to right bottom, #f83360, #f93d75, #f84888, #f5549b, #f060ac, #f060ab, #f15fab, #f15faa, #f65298, #f94684, #fa3b6f, #f83359);
+}
+
+#page-four {
+    background-image: linear-gradient(to right bottom, #10d75d, #3cdb6b, #55df79, #69e386, #7be793, #7be793, #7be793, #7be793, #69e386, #55df79, #3cdb6b, #10d75d);
+}
+
+#page-five {
+    background-image: linear-gradient(to right bottom, #5481d9, #5e8cdd, #6996e1, #74a1e5, #80abe8, #80abe8, #80abe8, #80abe8, #74a1e5, #6996e1, #5e8cdd, #5481d9);        
+}
+
+#page-six {
+    background-image: linear-gradient(to right bottom, #9e6fe8, #a87ce8, #b289e9, #bb96e9, #c4a3e9, #c4a3e9, #c4a3e9, #c4a3e9, #bb96e9, #b289e9, #a87ce8, #9e6fe8);           
 }
 
 #earth {
@@ -75,6 +90,29 @@ li {
     width: 210px;
     margin-left: -20px;
     margin-right: -20px;
+}
+
+#veggies {
+    height: 280px;
+}
+
+#bulb {
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+}
+
+#bicycle {
+    height: 300px;
+}
+
+#plant {
+    height: 300px;
+}
+
+#policy {
+    height: 300px;
+    margin-bottom: -40px;
 }
 
 .subheader {
