@@ -48,6 +48,16 @@ li {
     text-align: center;
 }
 
+.page-one-title-text {
+    font-size: 150px;
+}
+
+#page-one-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #page-two {
     background-image: linear-gradient(to right bottom, #b83f8f, #b853a2, #b766b3, #b577c2, #b487d0, #a881c8, #9d7bc1, #9275b9, #7a599e, #623e83, #4b2468, #35074f);
 
@@ -60,4 +70,6 @@ li {
 #earth {
     height: 200px;
     width: 210px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
