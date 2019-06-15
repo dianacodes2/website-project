@@ -44,8 +44,8 @@ li {
 }
 
 #page-one {
-    background-image: linear-gradient(to right bottom, #3f69b8, #5177c0, #6284c7, #7392cf, #84a0d6, #829dd9, #809adc, #8096de, #757fda, #7265d2, #7647c6, #7d1ab4);
-    text-align: center;
+    background-image: linear-gradient(to right bottom, #2c4b38, #385e4d, #457264, #52867b, #619a94, #5b9496, #578e97, #578796, #466578, #374558, #262837, #130b18);
+     text-align: center;
 }
 
 .page-one-title-text {
@@ -77,7 +77,6 @@ li {
 
 .subheader {
     font-family: 'Shadows Into Light', cursive;
-    width: 870px;
+    margin-left:450px;
     font-size: 28px;
-    text-align: right;
 }
