@@ -59,15 +59,22 @@ li {
     background-image: linear-gradient(to top, #147b83, #156970, #14585d, #12474b, #10373a);
 }
 
-.page-one-title-text {
+.main-title-text {
     font-size: 150px;
 }
 
 #page-one-title {
+    margin-bottom: -20px;
+}
+
+#page-seven-title {
+    margin-bottom: -10px;
+}
+
+.page-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -20px;
 }
 
 #page-two {
@@ -132,6 +139,13 @@ li {
     height: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.remembertext {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 28px;
+    margin-right: 580px;
+    margin-bottom: -30px;
 }
 
 .subheader {
