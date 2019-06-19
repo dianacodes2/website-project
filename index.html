@@ -11,8 +11,34 @@
 <body>
     <div id="container">
         <ul>
-                <div id="overlay">
-                        <button onclick="off()">Turn off overlay effect</button>
+                <div class="overlay" id="page-two-overlay">
+                        <div onclick="off('page-two-overlay')" class="full-circle2"><p>x</p></div>
+                        <p class="paragraph">By eating more plant-based foods and less meat products, you can help reduce your impact on the planet! A <a href="https://www.nature.com/articles/s41586-018-0594-0">recent study</a> by Nature found that Western diets high in red meat can lead to worrying levels of climate change, as well as imbalances in the world’s ecosystems and biodiversity.
+                        </p>
+                        <p class="paragraph">Why? Well, it’s mainly because growing plants, as opposed to breeding cattle, requires less energy, water and land, and also produces less greenhouse gas emissions and pollutants.
+                        </p>
+                        <p class="paragraph">The production of animal products generates high levels of greenhouse-gas emissions. In fact, cows emit the famous greenhouse gas methane when they digest food. They also require a lot of feed, which will require a lot of water, land and fertilizer. 
+                        </p>
+                        <p class="paragraph">Yes, plants also require water, land and fertilizer, but, overall, meat products are significantly more emissions-intensive. According to the Nature study, if we all started adopting more plant-based diets, we could reduce the greenhouse gas emissions of the food system by more than half. 
+                        </p>
+                        <p class="paragraph">If you’re worried about protein, remember that legumes like beans and lentils are excellent protein sources!
+                        </p>
+                </div>
+
+                <div class="overlay" id="page-three-overlay">
+                        <div onclick="off('page-three-overlay')" class="full-circle2"><p>x</p></div>
+                </div>
+
+                <div class="overlay" id="page-four-overlay">
+                        <div onclick="off('page-four-overlay')" class="full-circle2"><p>x</p></div>
+                </div>
+
+                <div class="overlay" id="page-five-overlay">
+                        <div onclick="off('page-five-overlay')" class="full-circle2"><p>x</p></div>
+                </div>
+
+                <div class="overlay" id="page-six-overlay">
+                        <div onclick="off('page-six-overlay')" class="full-circle2"><p>x</p></div>
                 </div>
 
                 <div id="navbar">
@@ -36,7 +62,7 @@
                         <img id="veggies" src="assets/VEGGIESICON2.png" />  
                         <h1 class="title-text">Switch to a plant-based diet</h1>
 
-                        <div onclick="on()" class="full-circle"><p>Learn more</p></div>
+                        <div onclick="on('page-two-overlay')" class="full-circle"><p>Learn More</p></div>
                     </div>
             </li>
 
@@ -45,6 +71,8 @@
                         <h1 class="title-text">Step 2:</h1> 
                         <img id="plant" src="assets/PLANT ICON 3.png" />  
                         <h1 class="title-text">Get started with gardening</h1>
+
+                        <div onclick="on('page-three-overlay')" class="full-circle"><p>Learn More</p></div>
                     </div>
             </li>
         
@@ -53,6 +81,8 @@
                         <h1 class="title-text">Step 3:</h1> 
                         <img id="bicycle" src="assets/BICYCLE ICON.png" />  
                         <h1 class="title-text">Green your commute</h1>
+
+                        <div onclick="on('page-four-overlay')" class="full-circle"><p>Learn More</p></div>
                     </div>
             </li>
 
@@ -61,6 +91,8 @@
                         <h1 class="title-text">Step 4:</h1> 
                         <img id="policy" src="assets/POLICY ICON.png" />  
                         <h1 class="title-text">Vote to influence policy</h1>
+
+                        <div onclick="on('page-five-overlay')" class="full-circle"><p>Learn More</p></div>
                     </div>
             </li>
 
@@ -69,10 +101,13 @@
                         <h1 class="title-text">Step 5:</h1> 
                         <img id="bulb" src="assets/BULB ICON0.png" />  
                         <h1 class="title-text">Reduce your household energy use</h1>
+
+                        <div onclick="on('page-six-overlay')" class="full-circle"><p>Learn More</p></div>
                     </div>
             </li>
 
             <li class="page" id="page-seven">
+                    <a class="chevron2" href="#page-six"><i class="fas fa-chevron-up"></i></a>
                     <p class="remembertext">Remember...</p>
                 <div class="page-wrapper" id="page-seven-title"> 
                     <h1 class="main-title-text">ACT N</h1>
@@ -85,11 +120,11 @@
         </ul>
     </div>
 </body>
-<script>function on() {
-        document.getElementById("overlay").style.display = "block";
+<script>function on(overlayClass) {
+        document.getElementById(overlayClass).style.display = "block";
       }
       
-      function off() {
-        document.getElementById("overlay").style.display = "none";
+      function off(overlayClass) {
+        document.getElementById(overlayClass).style.display = "none";
       }</script>
 </html>
