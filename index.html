@@ -11,6 +11,10 @@
 <body>
     <div id="container">
         <ul>
+                <div id="overlay">
+                        <button onclick="off()">Turn off overlay effect</button>
+                </div>
+
                 <div id="navbar">
                         <a href="index.html">Home</a>
                         <a href="./about.html">About</a>
@@ -27,14 +31,17 @@
                 <a class="chevron" href="#page-two"><i class="fas fa-chevron-down"></i></a>
             </li>
             <li class="page" id="page-two">
-                    <div id="page-two-title"> 
-                    <h1 class="title-text">Step 1:</h1> 
-                    <img id="veggies" src="assets/VEGGIESICON2.png" />  
-                    <h1 class="title-text">Switch to a plant-based diet</h1>
+                    <div class="page-content-wrapper" id="page-two-title"> 
+                        <h1 class="title-text">Step 1:</h1> 
+                        <img id="veggies" src="assets/VEGGIESICON2.png" />  
+                        <h1 class="title-text">Switch to a plant-based diet</h1>
+                        <div onclick="on()" class="round-button">
+                            <div class="round-button-circle">
+                                <button class="round-button">Learn more</button>
+                            </div>
+                        </div>
                     </div>
-
             </li>
-
 
             <li class="page" id="page-three">
                     <div id="page-three-title"> 
@@ -81,4 +88,11 @@
         </ul>
     </div>
 </body>
+<script>function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }</script>
 </html>
