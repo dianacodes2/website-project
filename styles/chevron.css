@@ -1,0 +1,62 @@
+.chevron-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#chevron-wrapper-page-one {
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#chevron-wrapper-last-page {
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.chevron-wrapper .chevron-text {
+    opacity: 0;
+    font-size: 20px;
+}
+
+.chevron-wrapper:hover .chevron-text {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+#chevron-first-page {
+    text-decoration: none;
+    color: white;
+}
+
+#chevron-last-page {
+    text-decoration: none;
+    color: white;
+}
+
+.chevron {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.chevron-down {
+    right: 56px;
+    top: 224px;
+}
+
+.chevron-up {
+    right: 56px;
+    top: 50px;
+}
+
+.chevron:hover { 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+  }

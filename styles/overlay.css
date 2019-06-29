@@ -1,0 +1,33 @@
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    text-align: center;
+}
+
+#page-two-overlay {
+    background-image: radial-gradient(circle, #20838a, #22617b, #31405d, #2e2337, #1d0813);
+  }
+
+#page-three-overlay {
+    background-image: radial-gradient(circle, #9bcacd, #7495a6, #586277, #3c3344, #1d0813);
+  }
+
+  #page-four-overlay {
+    background-image: radial-gradient(circle, #86c3dc, #84bde5, #8cb5ea, #9eaceb, #b4a0e5, #b18dcc, #ab7ab2, #a36999, #804f72, #5d364f, #3b202f, #1d0813);
+  }
+
+  #page-five-overlay {
+    background-image: radial-gradient(circle, #c480c3, #995e8f, #6e3f60, #442436, #1d0813);
+  }
+
+  #page-six-overlay {
+    background-image: radial-gradient(circle, #793579, #64275b, #4d1b40, #361128, #200414);
+  }

@@ -1,0 +1,49 @@
+.page {
+    position: relative;
+}
+
+#page-one {
+    background-image: linear-gradient(to top, #147b83, #156970, #14585d, #12474b, #10373a);
+}
+
+#page-one-title {
+    margin-bottom: -20px;
+}
+
+#page-seven-title {
+    margin-bottom: -10px;
+}
+
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content-wrapper {
+    position: relative;
+}
+
+#page-two {
+    background-image: linear-gradient(to bottom, #147b83, #20838a, #2b8a92, #349299, #3d9aa1);
+}
+
+#page-three {
+    background-image: linear-gradient(to bottom, #3d9aa1, #58a6ac, #70b2b7, #86bec2, #9bcacd);
+}
+
+#page-four {
+    background-image: linear-gradient(to bottom, #9bcacd, #86c3dc, #8ab7e9, #aaa6e9, #d28fd2);
+}
+
+#page-five {
+    background-image: linear-gradient(to bottom, #d28fd2, #c480c3, #b572b5, #a764a7, #995699);
+}
+
+#page-six {
+    background-image: linear-gradient(to bottom, #995699, #874887, #753975, #632c63, #521e52);
+}
+
+#page-seven {
+    background-image: linear-gradient(to bottom, #521e52, #491749, #411141, #380a38, #300430);
+}

@@ -1,0 +1,35 @@
+#earth {
+    height: 200px;
+    width: 210px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#veggies {
+    height: 230px;
+}
+
+#bulb {
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+#bicycle {
+    height: 300px;
+}
+
+#plant {
+    height: 300px;
+}
+
+#policy {
+    height: 300px;
+    margin-bottom: -40px;
+}
+
+#hourglass {
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

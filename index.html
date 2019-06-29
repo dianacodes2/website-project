@@ -5,7 +5,7 @@
 <title>My Website</title>
 <script src="https://kit.fontawesome.com/1ec6242da6.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light&display=swap" rel="stylesheet">
-<link href="styles.css" rel="stylesheet" type="text/css" />
+<link href="./styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -84,7 +84,10 @@
                     <h1 class="main-title-text">W</h1>
                 </div>
                 <p class="subheader">There is no planet B</p>
-                <a class="chevron" id="chevron-first-page" href="#page-two"><i class="fas fa-chevron-down"></i></a>
+                <div id="chevron-wrapper-page-one" class="chevron-wrapper">
+                    <p class="chevron-text">Learn the steps</p>
+                    <a id="chevron-first-page" href="#page-two"><i class="fas fa-chevron-down"></i></a>
+                </div>
             </li>
             <li class="page" id="page-two">
                     <div class="page-content-wrapper" id="page-two-title"> 
@@ -138,7 +141,10 @@
             </li>
 
             <li class="page" id="page-seven">
-                    <a class="chevron" id="chevron-last-page" href="#page-six"><i class="fas fa-chevron-up"></i></a>
+                    <div id="chevron-wrapper-last-page" class="chevron-wrapper">
+                            <a id="chevron-last-page" href="#page-two"><i class="fas fa-chevron-up"></i></a>
+                            <p class="chevron-text">Back to Step 1</p>
+                        </div>
                     <p class="remembertext">Remember...</p>
                 <div class="page-wrapper" id="page-seven-title"> 
                     <h1 class="main-title-text">ACT N</h1>
