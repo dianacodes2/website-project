@@ -154,25 +154,41 @@ li {
 
 .subheader {
     font-family: 'Shadows Into Light', cursive;
-    margin-left:450px;
+    margin-left:490px;
     font-size: 28px;
+    margin-top: -5px;
 }
 
-.chevron {
-    text-decoration: none;
-    color: white;
-    position: absolute;
+#chevron-first-page {
     bottom: 10px;
     left: 50%;
 }
 
-.chevron2 {
-    text-decoration: none;
-    color: white;
-    position: absolute;
+#chevron-last-page {
     top: 10px;
     left: 50%;
 }
+
+.chevron {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.chevron-down {
+    right: 56px;
+    top: 224px;
+}
+
+.chevron-up {
+    right: 56px;
+    top: 50px;
+}
+
+.chevron:hover { 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;   
+  }
 
 .overlay {
     position: fixed; /* Sit on top of the page content */
