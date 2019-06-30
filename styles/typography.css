@@ -14,6 +14,26 @@
     margin-bottom: -30px;
 }
 
+.introtext {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 28px;
+    margin-left: 150px;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 1200px) {
+    .introtext {
+        margin-left: 200px;
+    }   
+}
+
+@media only screen and (min-width: 1440px) {
+    .introtext {
+        margin-left: 350px;
+    }   
+}
+
 .subheader {
     font-family: 'Shadows Into Light', cursive;
     margin-left:490px;
@@ -27,8 +47,24 @@
     margin-right: 350px;
     margin-left: 350px;
     margin-bottom: 30px;
+    line-height: 1.5;
   }
 
   .paragraph a {
       color:white;
   }
+
+  #source-page-title {
+      margin-bottom: 30px;
+}
+
+#source-list {
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+
+#source-list a {
+    text-decoration: underline;
+    color:white;
+    margin-bottom: 15px;
+}

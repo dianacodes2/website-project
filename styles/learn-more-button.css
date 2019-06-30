@@ -6,9 +6,6 @@
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    position:absolute;
-    right: 20px;
-    bottom: 40%;
     margin:0px;
     font-size: 25px;
     cursor: pointer;
@@ -40,7 +37,7 @@
 }
 
 .full-circle2 p {
-    margin-top: 7px;
+    margin-top: 5px;
     color: white;
 }
 
@@ -48,10 +45,19 @@
     animation: pulse 1s infinite;
     animation-timing-function: linear;   
   }
-  
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); 
-    100% { transform: scale(1); }
-    }
-  }
+
+.learn-more-wrapper {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#learn-more-wrapper-one {
+    top: 30%;
+}
+
+.learn-more-wrapper-center {
+    top: 40%;
+}

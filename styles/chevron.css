@@ -41,14 +41,13 @@
 }
 
 .chevron {
-    position: absolute;
     text-decoration: none;
     color: white;
 }
 
 .chevron-down {
     right: 56px;
-    top: 224px;
+    top: 220px;
 }
 
 .chevron-up {
@@ -59,4 +58,9 @@
 .chevron:hover { 
     animation: pulse 1s infinite;
     animation-timing-function: linear;   
-  }
+}
+
+.chevron-animated:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;  
+}

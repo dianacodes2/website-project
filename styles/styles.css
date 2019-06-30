@@ -1,3 +1,4 @@
+@import "./animations.css";
 @import "./chevron.css";
 @import "./overlay.css";
 @import "./navbar.css";
@@ -40,5 +41,4 @@ li {
 	flex-direction: column;
 	justify-content: center;
 	scroll-snap-align: start;
-    height: 100vh;
 }

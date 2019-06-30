@@ -1,5 +1,6 @@
 .page {
     position: relative;
+    height: 100vh;
 }
 
 #page-one {
@@ -14,7 +15,7 @@
     margin-bottom: -10px;
 }
 
-.page-wrapper {
+.title-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,4 +47,11 @@
 
 #page-seven {
     background-image: linear-gradient(to bottom, #521e52, #491749, #411141, #380a38, #300430);
+}
+
+#source-page {
+    background-image: linear-gradient(to top, #8f4e8f, #7e437e, #6e376e, #5e2d5e, #4e224e);
+    padding-top: 150px;
+    text-align: center;
+    color: white;
 }

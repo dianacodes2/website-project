@@ -73,12 +73,12 @@
 
                 <div id="navbar">
                         <a href="index.html">Home</a>
-                        <a href="./about.html">About</a>
                         <a href="./sources.html">Sources</a>
                       </div>
 
             <li class="page" id="page-one">
-                <div class="page-wrapper" id="page-one-title"> 
+                    <p class="introtext">Take 5 steps to reduce climate change...</p>
+                <div class="title-wrapper" id="page-one-title"> 
                     <h1 class="main-title-text">ACT N</h1>
                     <img id="earth" src="assets/EARTH ICON.png" />
                     <h1 class="main-title-text">W</h1>
@@ -86,7 +86,7 @@
                 <p class="subheader">There is no planet B</p>
                 <div id="chevron-wrapper-page-one" class="chevron-wrapper">
                     <p class="chevron-text">Learn the steps</p>
-                    <a id="chevron-first-page" href="#page-two"><i class="fas fa-chevron-down"></i></a>
+                    <a class="chevron-animated" id="chevron-first-page" href="#page-two"><i class="fas fa-chevron-down"></i></a>
                 </div>
             </li>
             <li class="page" id="page-two">
@@ -94,9 +94,11 @@
                         <h1 class="title-text">Step 1:</h1> 
                         <img id="veggies" src="assets/VEGGIESICON2.png" />  
                         <h1 class="title-text">Switch to a plant-based diet</h1>
-                        <a class="chevron-up chevron" href="#page-one"><i class="fas fa-chevron-up"></i></a>
-                        <div onclick="on('page-two-overlay')" class="full-circle"><p>Learn More</p></div>
-                        <a class="chevron-down chevron" href="#page-three"><i class="fas fa-chevron-down"></i></a>
+                        <div id="learn-more-wrapper-one" class="learn-more-wrapper">
+                            <a class="chevron" href="#page-one"><i class="fas fa-chevron-up"></i></a>
+                            <div onclick="on('page-two-overlay')" class="full-circle"><p>Learn More</p></div>
+                            <a class="chevron" href="#page-three"><i class="fas fa-chevron-down"></i></a>
+                        </div>
                     </div>
             </li>
 
@@ -105,8 +107,11 @@
                         <h1 class="title-text">Step 2:</h1> 
                         <img id="plant" src="assets/PLANT ICON 3.png" />  
                         <h1 class="title-text">Get started with gardening</h1>
-
-                        <div onclick="on('page-three-overlay')" class="full-circle"><p>Learn More</p></div>
+                        <div class="learn-more-wrapper-center learn-more-wrapper">
+                            <a class="chevron" href="#page-two"><i class="fas fa-chevron-up"></i></a>
+                            <div onclick="on('page-three-overlay')" class="full-circle"><p>Learn More</p></div>
+                            <a class="chevron" href="#page-four"><i class="fas fa-chevron-down"></i></a>
+                        </div>
                     </div>
             </li>
         
@@ -115,8 +120,11 @@
                         <h1 class="title-text">Step 3:</h1> 
                         <img id="bicycle" src="assets/BICYCLE ICON.png" />  
                         <h1 class="title-text">Green your commute</h1>
-
-                        <div onclick="on('page-four-overlay')" class="full-circle"><p>Learn More</p></div>
+                        <div class="learn-more-wrapper learn-more-wrapper-center">
+                                <a class="chevron" href="#page-three"><i class="fas fa-chevron-up"></i></a>
+                                <div onclick="on('page-four-overlay')" class="full-circle"><p>Learn More</p></div>
+                                <a class="chevron" href="#page-five"><i class="fas fa-chevron-down"></i></a>
+                        </div>
                     </div>
             </li>
 
@@ -125,8 +133,11 @@
                         <h1 class="title-text">Step 4:</h1> 
                         <img id="policy" src="assets/POLICY ICON.png" />  
                         <h1 class="title-text">Vote to influence policy</h1>
-
-                        <div onclick="on('page-five-overlay')" class="full-circle"><p>Learn More</p></div>
+                        <div class="learn-more-wrapper learn-more-wrapper-center">
+                            <a class="chevron" href="#page-four"><i class="fas fa-chevron-up"></i></a>
+                            <div onclick="on('page-five-overlay')" class="full-circle"><p>Learn More</p></div>
+                            <a class="chevron" href="#page-six"><i class="fas fa-chevron-down"></i></a>
+                        </div>
                     </div>
             </li>
 
@@ -135,18 +146,21 @@
                         <h1 class="title-text">Step 5:</h1> 
                         <img id="bulb" src="assets/BULB ICON0.png" />  
                         <h1 class="title-text">Reduce your household energy use</h1>
-
-                        <div onclick="on('page-six-overlay')" class="full-circle"><p>Learn More</p></div>
+                        <div class="learn-more-wrapper learn-more-wrapper-center">
+                            <a class="chevron" href="#page-five"><i class="fas fa-chevron-up"></i></a>
+                            <div onclick="on('page-six-overlay')" class="full-circle"><p>Learn More</p></div>
+                            <a class="chevron" href="#page-seven"><i class="fas fa-chevron-down"></i></a>
+                        </div>
                     </div>
             </li>
 
             <li class="page" id="page-seven">
                     <div id="chevron-wrapper-last-page" class="chevron-wrapper">
-                            <a id="chevron-last-page" href="#page-two"><i class="fas fa-chevron-up"></i></a>
+                            <a class="chevron-animated" id="chevron-last-page" href="#page-two"><i class="fas fa-chevron-up"></i></a>
                             <p class="chevron-text">Back to Step 1</p>
                         </div>
                     <p class="remembertext">Remember...</p>
-                <div class="page-wrapper" id="page-seven-title"> 
+                <div class="title-wrapper" id="page-seven-title"> 
                     <h1 class="main-title-text">ACT N</h1>
                     <img id="earth" src="assets/EARTH ICON PINK.png" />
                     <h1 class="main-title-text">W</h1>
